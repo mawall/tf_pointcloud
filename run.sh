@@ -12,5 +12,5 @@ docker run   \
     -v $DATA_DIR:/data/  \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -w /notebooks \
-    --name pypcl \
-    pypcl
+    --name tf_pypcl \
+    tf_pypcl
