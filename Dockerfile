@@ -1,4 +1,4 @@
 FROM mawall/py_pointcloud
 
-# Dependencies
+# Packages
 RUN pip install --upgrade tensorflow
